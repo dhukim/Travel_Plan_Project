@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Travel_Plan_Project</string>
+    <string name="province">국내</string>
+    <string name="oversea">해외</string>
 </resources>
