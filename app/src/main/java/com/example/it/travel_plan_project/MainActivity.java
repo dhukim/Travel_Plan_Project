@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.login);
         final Intent loginIntent = new Intent(this, Plan_View.class);
         final Intent signIntent = new Intent(this, Plan_sign.class);
-        Button login = (Button) findViewById(R.id.login_button);
-        Button sign = (Button) findViewById(R.id.login_sign_button);
+        Button login = findViewById(R.id.login_button);
+        Button sign = findViewById(R.id.login_sign_button);
 
         login.setOnClickListener(new Button.OnClickListener(){
             @Override
