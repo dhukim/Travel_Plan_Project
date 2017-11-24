@@ -6,28 +6,21 @@
     android:layout_height="match_parent"
     tools:layout_editor_absoluteY="81dp">
 
-    <ScrollView
-        android:id="@+id/scrollView2"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="0dp"
-        android:layout_height="467dp"
+        android:layout_height="469dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-
-    </ScrollView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginStart="4dp"
-        android:text="추가"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button10"
+        android:layout_marginEnd="7dp"
+        android:text="@string/plan_add"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -35,8 +28,8 @@
         android:id="@+id/button9"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:text="삭제"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button10"
+        android:text="@string/plan_delete"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button10" />
 
@@ -44,8 +37,8 @@
         android:id="@+id/button10"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="2dp"
-        android:text="수정"
+        android:layout_marginEnd="1dp"
+        android:text="@string/plan_change"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toEndOf="@+id/button8" />

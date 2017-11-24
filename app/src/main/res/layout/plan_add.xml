@@ -47,7 +47,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/doemstic_start"
+                            android:id="@+id/domestic_start"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"

@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Travel_Plan_Project.iml" filepath="$PROJECT_DIR$/Travel_Plan_Project.iml" />
       <module fileurl="file://C:\Users\hu\Documents\GitHub\Travel_Plan_Project\Travel_Plan_Project.iml" filepath="C:\Users\hu\Documents\GitHub\Travel_Plan_Project\Travel_Plan_Project.iml" />
+      <module fileurl="file://C:\Users\Administrator\Documents\GitHub\Travel_Plan_Project\Travel_Plan_Project.iml" filepath="C:\Users\Administrator\Documents\GitHub\Travel_Plan_Project\Travel_Plan_Project.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\hu\Documents\GitHub\Travel_Plan_Project\app\app.iml" filepath="C:\Users\hu\Documents\GitHub\Travel_Plan_Project\app\app.iml" />
+      <module fileurl="file://C:\Users\Administrator\Documents\GitHub\Travel_Plan_Project\app\app.iml" filepath="C:\Users\Administrator\Documents\GitHub\Travel_Plan_Project\app\app.iml" />
     </modules>
   </component>
 </project>

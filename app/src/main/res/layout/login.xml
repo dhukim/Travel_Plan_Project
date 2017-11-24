@@ -8,12 +8,12 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="168dp"
-        android:layout_height="37dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="36dp"
         android:layout_marginEnd="24dp"
-        android:text="Travel_Plan"
+        android:text="@string/app_name"
         android:textAlignment="center"
-        android:textSize="45px"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/login_email"
         app:layout_constraintEnd_toEndOf="@+id/login_email" />
 
@@ -24,7 +24,7 @@
         android:layout_marginTop="144dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:hint="email"
+        android:hint="@string/plan_eng_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,7 +36,7 @@
         android:layout_marginTop="42dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="password"
+        android:hint="@string/plan_eng_pass"
         app:layout_constraintStart_toStartOf="@+id/login_email"
         app:layout_constraintTop_toBottomOf="@+id/login_email" />
 
@@ -44,7 +44,7 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="로그인"
+        android:text="@string/plan_login"
         app:layout_constraintBaseline_toBaselineOf="@+id/login_sign_button"
         app:layout_constraintStart_toStartOf="@+id/login_password" />
 
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:text="가입"
+        android:text="@string/plan_sign"
         app:layout_constraintEnd_toEndOf="@+id/login_password"
         app:layout_constraintTop_toBottomOf="@+id/login_password" />
 </android.support.constraint.ConstraintLayout>

@@ -1,5 +1,17 @@
 <resources>
-    <string name="app_name">Travel_Plan_Project</string>
+    <string name="app_name">Travel_Plan</string>
     <string name="province">국내</string>
     <string name="oversea">해외</string>
+    <string name="plan_add">추가</string>
+    <string name="plan_change">수정</string>
+    <string name="plan_delete">삭제</string>
+    <string name="plan_email">이메일 : </string>
+    <string name="plan_pass1">비밀번호 : </string>
+    <string name="plan_pass2">비밀번호 확인 : </string>
+    <string name="plan_sign">가입</string>
+    <string name="plan_cancel">취소</string>
+    <string name="plan_login">로그인</string>
+    <string name="plan_eng_email">email</string>
+    <string name="plan_eng_pass">password</string>
+
 </resources>
