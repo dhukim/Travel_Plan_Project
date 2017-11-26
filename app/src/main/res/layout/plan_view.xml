@@ -16,17 +16,15 @@
 
     <Button
         android:id="@+id/plan_add"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="7dp"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
         android:text="@string/plan_add"
-        app:layout_constraintBaseline_toBaselineOf="@+id/plan_change"
-        app:layout_constraintEnd_toStartOf="@+id/plan_change"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/plan_delete"
-        android:layout_width="0dp"
+        android:layout_width="128dp"
         android:layout_height="0dp"
         android:text="@string/plan_delete"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,12 +33,10 @@
 
     <Button
         android:id="@+id/plan_change"
-        android:layout_width="0dp"
+        android:layout_width="128dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="1dp"
         android:text="@string/plan_change"
-        app:layout_constraintBaseline_toBaselineOf="@+id/plan_delete"
-        app:layout_constraintEnd_toStartOf="@+id/plan_delete"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/plan_add" />
 
 </android.support.constraint.ConstraintLayout>

@@ -19,7 +19,7 @@ public class Plan_View extends Activity {
 
         final Intent C_Plan_Add = new Intent(this, Plan_Add.class);
 
-        Button B_Plan_Add = (Button) findViewById(R.id.button8);
+        Button B_Plan_Add = findViewById(R.id.plan_add);
 
         B_Plan_Add.setOnClickListener(new Button.OnClickListener(){
             @Override
