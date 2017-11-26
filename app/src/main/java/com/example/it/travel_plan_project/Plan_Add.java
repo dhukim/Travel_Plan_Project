@@ -48,12 +48,13 @@ public class Plan_Add extends AppCompatActivity {
         Button oversea_start = findViewById(R.id.oversea_start_button);
         Button oversea_destination = findViewById(R.id.oversea_destination_button);
         Button oversea_Food = findViewById(R.id.oversea_Food_button);
-        Button oversea_Carnival = findViewById(R.id.oversea_Rooms_button);
+        Button oversea_Room = findViewById(R.id.oversea_Rooms_button);
+        //Button oversea_Carnival = findViewById(R.id.);
 
         final Intent oversea = new Intent(this, Plan_Add_Oversea_Country.class);
         final Intent oversea_des = new Intent(this, Plan_Add_Oversea_Country.class);
         final Intent oversea_foods = new Intent(this, Plan_Add_Oversea_Food.class);
-        final Intent oversea_Rooms = new Intent(this, Plan_Add_Oversea_Carnival.class);
+        final Intent oversea_Rooms = new Intent(this, Plan_Add_Oversea_Rooms.class);
 
         oversea_start.setOnClickListener(new Button.OnClickListener(){
             @Override
@@ -76,7 +77,7 @@ public class Plan_Add extends AppCompatActivity {
             }
         });
 
-        oversea_Carnival.setOnClickListener(new Button.OnClickListener(){
+        oversea_Room.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view) {
                 startActivity(oversea_Rooms);
