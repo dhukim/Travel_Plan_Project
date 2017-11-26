@@ -24,4 +24,6 @@
         <activity android:name=".Plan_sign"/>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 </manifest>
