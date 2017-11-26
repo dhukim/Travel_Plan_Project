@@ -10,22 +10,19 @@ import android.widget.LinearLayout;
  * Created by handongjun on 2017. 11. 26..
  */
 
-public class Plan_Add_Oversea_City extends Activity{
+public class Plan_Add_Oversea_Carnival extends Activity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.plan_add_oversea_city);
+        setContentView(R.layout.plan_add_oversea_carnival);
 
-        final LinearLayout O_City_list = findViewById(R.id.o_cityL);
+        final LinearLayout O_Room_list = findViewById(R.id.o_RoomL);
         for(int i =0; i <5;i++){
             final Button btn = new Button(this);
             btn.setId(i + 1);
             btn.setText("" + (i + 1));
             btn.setWidth(80);
-            O_City_list.addView(btn);
+            O_Room_list.addView(btn);
         }
-
-
-
     }
 }

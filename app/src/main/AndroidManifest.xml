@@ -22,6 +22,7 @@
         <activity android:name=".Plan_Add_Domestic_Province"/>
         <activity android:name=".Plan_Add_Domestic_City"/>
         <activity android:name=".Plan_sign"/>
+        <activity android:name=".Plan_Add_Oversea_Country" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET"/>
