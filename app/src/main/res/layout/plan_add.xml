@@ -11,7 +11,6 @@
         android:id="@+id/tabHost1"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="5dp"
         android:layout_marginEnd="2dp"
         android:layout_marginStart="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -173,7 +172,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -198,6 +197,26 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="검색" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/domestic_Add_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="확인" />
+
+                        <Button
+                            android:id="@+id/domestic_Cancel_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="취소" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -341,7 +360,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -366,6 +385,26 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="검색" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/oversea_Add_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="확인" />
+
+                        <Button
+                            android:id="@+id/oversea_Cancel_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="취소" />
                     </LinearLayout>
                 </LinearLayout>
 

@@ -23,8 +23,6 @@ public class Plan_Add_Domestic_Province extends Activity {
         Button domestic4 = findViewById(R.id.domestic4);
         Button domestic5 = findViewById(R.id.domestic5);
         Button domestic6 = findViewById(R.id.domestic6);
-        Button domestic7 = findViewById(R.id.domestic7);
-        Button domestic8 = findViewById(R.id.domestic8);
 
         final Intent domestic = new Intent(this, Plan_Add_Domestic_City.class);
         domestic1.setOnClickListener(new Button.OnClickListener(){
