@@ -38,8 +38,8 @@ public class Plan_sign extends Activity{
             @Override
             public void onClick(View view) {
                 String userID = idText.getText().toString();
-                String userPassword = passwordText1.getText().toString();
-                String userpassword2 = passwordText2.getText().toString();
+                final String userPassword = passwordText1.getText().toString();
+                final String userPassword2 = passwordText2.getText().toString();
 
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override

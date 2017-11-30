@@ -24,13 +24,43 @@ public class Plan_Add_Domestic_Province extends Activity {
         Button domestic5 = findViewById(R.id.domestic5);
         Button domestic6 = findViewById(R.id.domestic6);
 
-        final Intent domestic = new Intent(this, Plan_Add_Domestic_City.class);
+        final Intent domestic_city = new Intent(this, Plan_Add_Domestic_City.class);
+
         domestic1.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view) {
-                startActivity(domestic);
+                startActivity(domestic_city);
             }
         });
-
+        domestic2.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(domestic_city);
+            }
+        });
+        domestic3.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(domestic_city);
+            }
+        });
+        domestic4.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(domestic_city);
+            }
+        });
+        domestic5.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(domestic_city);
+            }
+        });
+        domestic6.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(domestic_city);
+            }
+        });
     }
 }

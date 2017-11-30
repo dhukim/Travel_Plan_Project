@@ -42,7 +42,12 @@ public class Plan_Add extends AppCompatActivity {
                 startActivity(domestic);
             }
         });
-
+        domestic_destination.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(domestic);
+            }
+        });
 
         //해외 버튼클릭
         Button oversea_start = findViewById(R.id.oversea_start_button);
@@ -52,21 +57,20 @@ public class Plan_Add extends AppCompatActivity {
         //Button oversea_Carnival = findViewById(R.id.);
 
         final Intent oversea = new Intent(this, Plan_Add_Oversea_Country.class);
-        final Intent oversea_des = new Intent(this, Plan_Add_Oversea_Country.class);
         final Intent oversea_foods = new Intent(this, Plan_Add_Oversea_Food.class);
         final Intent oversea_Rooms = new Intent(this, Plan_Add_Oversea_Rooms.class);
 
         oversea_start.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view) {
-                startActivity(oversea);
+                startActivity(domestic);
             }
         });
 
         oversea_destination.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view) {
-                startActivity(oversea_des);
+                startActivity(oversea);
             }
         });
 
