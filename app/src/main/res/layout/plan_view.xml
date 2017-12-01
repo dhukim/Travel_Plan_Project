@@ -8,35 +8,31 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="0dp"
-        android:layout_height="469dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="384dp"
+        android:layout_height="469dp" />
 
     <Button
         android:id="@+id/plan_add"
-        android:layout_width="128dp"
+        android:layout_width="86dp"
         android:layout_height="0dp"
-        android:text="@string/plan_add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:background="@drawable/plan_add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="459dp" />
 
     <Button
         android:id="@+id/plan_delete"
-        android:layout_width="128dp"
+        android:layout_width="86dp"
         android:layout_height="0dp"
-        android:text="@string/plan_delete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/plan_change" />
+        android:background="@drawable/plan_delete"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="459dp" />
 
     <Button
         android:id="@+id/plan_change"
-        android:layout_width="128dp"
+        android:layout_width="96dp"
         android:layout_height="50dp"
-        android:text="@string/plan_change"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/plan_add" />
+        android:background="@drawable/fix"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="459dp" />
 
 </android.support.constraint.ConstraintLayout>

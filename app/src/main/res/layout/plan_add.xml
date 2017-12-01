@@ -66,10 +66,10 @@
 
                         <Button
                             android:id="@+id/domestic_start_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
 
                     </LinearLayout>
 
@@ -97,10 +97,10 @@
 
                         <Button
                             android:id="@+id/domestic_destination_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
 
                     </LinearLayout>
 
@@ -164,10 +164,10 @@
 
                         <Button
                             android:id="@+id/domestic_Food_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -193,10 +193,10 @@
 
                         <Button
                             android:id="@+id/domestic_Rooms_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -254,10 +254,10 @@
 
                         <Button
                             android:id="@+id/oversea_start_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
 
                     </LinearLayout>
 
@@ -285,10 +285,10 @@
 
                         <Button
                             android:id="@+id/oversea_destination_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
 
                     </LinearLayout>
 
@@ -352,10 +352,10 @@
 
                         <Button
                             android:id="@+id/oversea_Food_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -381,10 +381,10 @@
 
                         <Button
                             android:id="@+id/oversea_Rooms_button"
-                            android:layout_width="wrap_content"
+                            android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="검색" />
+                            android:background="@drawable/seach" />
                     </LinearLayout>
 
                     <LinearLayout
