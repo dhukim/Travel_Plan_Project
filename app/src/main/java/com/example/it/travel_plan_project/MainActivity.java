@@ -21,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.plan_view);
-        /*
+        setContentView(R.layout.login);
         final Intent loginIntent = new Intent(this, Plan_View.class);
         final Intent signIntent = new Intent(this, Plan_sign.class);
         final Button login = findViewById(R.id.login_button);
@@ -75,6 +74,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(signIntent);
             }
         });
-        */
     }
 }
