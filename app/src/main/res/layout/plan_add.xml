@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@mipmap/ic_launcher_foreground"
     tools:context="com.example.it.travel_plan_project.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
