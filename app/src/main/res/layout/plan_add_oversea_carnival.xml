@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/back_img">
+    android:background="@mipmap/back_img_for">
 
     <LinearLayout
         android:id="@+id/o_carnivalL"

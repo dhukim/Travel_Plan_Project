@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context="com.example.it.travel_plan_project.MainActivity"
-    android:background="@mipmap/back_img"
+    android:background="@mipmap/back_img_for"
     tools:layout_editor_absoluteY="81dp">
 
     <TabHost
@@ -51,6 +51,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="출발지"
+                            android:textColor="#000000"
                             app:layout_constraintBottom_toBottomOf="@+id/editText7"
                             app:layout_constraintEnd_toStartOf="@+id/editText7"
                             app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +85,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="목적지" />
+                            android:text="목적지"
+                            android:textColor="#000000"/>
 
                         <EditText
                             android:id="@+id/domestic_destination_text"
@@ -115,6 +117,7 @@
                             android:layout_width="0dp"
                             android:layout_height="18dp"
                             android:layout_weight="1"
+                            android:textColor="#000000"
                             android:text="여행날짜" />
 
                         <EditText
@@ -131,6 +134,7 @@
                             android:layout_height="wrap_content"
 
                             android:text=" ~ "
+                            android:textColor="#000000"
                             android:textAlignment="center" />
 
                         <EditText
@@ -152,6 +156,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="#000000"
                             android:text="맛집" />
 
                         <EditText
@@ -181,6 +186,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="#000000"
                             android:text="숙소" />
 
                         <EditText
@@ -203,21 +209,54 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
-                        <Button
-                            android:id="@+id/domestic_Add_button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="확인" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:orientation="horizontal">
 
-                        <Button
-                            android:id="@+id/domestic_Cancel_button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="취소" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <Button
+                                android:id="@+id/domestic_Add_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/check" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <Button
+                                android:id="@+id/domestic_Cancel_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cancel" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"></LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:orientation="vertical"></LinearLayout>
+
                     </LinearLayout>
 
                 </LinearLayout>
@@ -238,6 +277,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="#000000"
                             android:text="출발지"
                             app:layout_constraintBottom_toBottomOf="@+id/editText7"
                             app:layout_constraintEnd_toStartOf="@+id/editText7"
@@ -272,6 +312,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:textColor="#000000"
                             android:text="목적지" />
 
                         <EditText
@@ -303,6 +344,7 @@
                             android:layout_width="0dp"
                             android:layout_height="18dp"
                             android:layout_weight="1"
+                            android:textColor="#000000"
                             android:text="여행날짜" />
 
                         <EditText
@@ -319,6 +361,7 @@
                             android:layout_height="wrap_content"
 
                             android:text=" ~ "
+                            android:textColor="#000000"
                             android:textAlignment="center" />
 
                         <EditText
@@ -391,22 +434,56 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
 
-                        <Button
-                            android:id="@+id/oversea_Add_button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="확인" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="7"
+                            android:orientation="horizontal">
 
-                        <Button
-                            android:id="@+id/oversea_Cancel_button"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="취소" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <Button
+                                android:id="@+id/oversea_Add_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/check" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <Button
+                                android:id="@+id/oversea_Cancel_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/cancel" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="horizontal"></LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:orientation="vertical"></LinearLayout>
+
                     </LinearLayout>
+
                 </LinearLayout>
 
             </FrameLayout>
