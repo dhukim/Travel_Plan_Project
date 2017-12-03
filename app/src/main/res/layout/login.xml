@@ -32,6 +32,7 @@
         android:hint="@string/plan_eng_email"
         android:inputType="textEmailAddress"
         android:background="#FFE4C4"
+        android:textColorHint="#708090"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,6 +44,7 @@
         android:layout_marginTop="42dp"
         android:ems="10"
         android:background="#FFE4C4"
+        android:textColorHint="#708090"
         android:hint="@string/plan_eng_pass"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="@+id/login_email"

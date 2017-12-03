@@ -64,7 +64,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/domestic_start_button"
@@ -96,7 +97,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>
 
                         <Button
                             android:id="@+id/domestic_destination_button"
@@ -126,7 +128,8 @@
                             android:layout_height="50dp"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:inputType="date" />
+                            android:inputType="date"
+                            android:textColor="#000000"/>/>
 
                         <TextView
                             android:id="@+id/domestic_text1"
@@ -143,7 +146,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:inputType="date" />
+                            android:inputType="date"
+                            android:textColor="#000000"/>/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -166,7 +170,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/domestic_Food_button"
@@ -196,7 +201,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/domestic_Rooms_button"
@@ -291,7 +297,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/oversea_start_button"
@@ -323,7 +330,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/oversea_destination_button"
@@ -370,7 +378,8 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:inputType="date" />
+                            android:inputType="date"
+                            android:textColor="#000000"/>/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -392,7 +401,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/oversea_Food_button"
@@ -421,7 +431,8 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="textPersonName"
-                            android:text="" />
+                            android:text=""
+                            android:textColor="#000000"/>/>
 
                         <Button
                             android:id="@+id/oversea_Rooms_button"
