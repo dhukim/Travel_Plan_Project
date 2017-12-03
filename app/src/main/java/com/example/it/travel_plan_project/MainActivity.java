@@ -52,9 +52,8 @@ public class MainActivity extends AppCompatActivity {
                             if(success) {
                                 String userid = jsonResponse.getString("userid");
                                 String passwd = jsonResponse.getString("passwd");
-                                Intent intent = new Intent(MainActivity.this, Travel_Plan_View.class);
-                                intent.putExtra("userid", userid);
-                                intent.putExtra("passwd", passwd);
+                                loginIntent.putExtra("userid", userid);
+                                loginIntent.putExtra("passwd", passwd);
                                 new BackgroundTask().execute();
                             }
                             else {

@@ -126,7 +126,7 @@
                             android:textColor="#000000" />
 
                         <EditText
-                            android:id="@+id/domestic_date_startDate"
+                            android:id="@+id/domestic_startDate_text"
                             android:layout_width="0dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
@@ -144,7 +144,7 @@
                             android:textColor="#000000" />
 
                         <EditText
-                            android:id="@+id/domestic_date_endDate"
+                            android:id="@+id/domestic_endDate_text"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -359,7 +359,7 @@
                             android:textColor="#000000" />
 
                         <EditText
-                            android:id="@+id/oversea_date_startDate"
+                            android:id="@+id/oversea_startDate_text"
                             android:layout_width="0dp"
                             android:layout_height="50dp"
                             android:layout_weight="1"
@@ -376,7 +376,7 @@
                             android:textColor="#000000" />
 
                         <EditText
-                            android:id="@+id/oversea_date_endDate"
+                            android:id="@+id/oversea_endDate_text"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
