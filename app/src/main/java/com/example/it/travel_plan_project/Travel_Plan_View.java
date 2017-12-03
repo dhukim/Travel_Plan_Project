@@ -11,7 +11,7 @@ import android.widget.Button;
  * Created by Administrator on 2017-11-24.
  */
 
-public class Plan_View extends Activity {
+public class Travel_Plan_View extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
