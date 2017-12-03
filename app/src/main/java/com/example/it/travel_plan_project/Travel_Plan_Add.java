@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.TabHost;
 
 
-public class Plan_Add extends AppCompatActivity {
+public class Travel_Plan_Add extends AppCompatActivity {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -87,9 +87,6 @@ public class Plan_Add extends AppCompatActivity {
                 startActivity(oversea_Rooms);
             }
         });
-
-
-
 
     }
 

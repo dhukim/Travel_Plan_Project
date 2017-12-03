@@ -44,7 +44,7 @@
                 tools:layout_editor_absoluteY="459dp" />
 
             <Button
-                android:id="@+id/plan_delete"
+                android:id="@+id/plan_del"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"

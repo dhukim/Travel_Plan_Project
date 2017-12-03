@@ -18,7 +18,7 @@
         </activity>
 
         <activity android:name=".Travel_Plan_View"/>
-        <activity android:name=".Plan_Add" />
+        <activity android:name=".Travel_Plan_Add" />
         <activity android:name=".Plan_Add_Domestic_Province"/>
         <activity android:name=".Plan_Add_Domestic_City"/>
         <activity android:name=".Plan_sign"/>
