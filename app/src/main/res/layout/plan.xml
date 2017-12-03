@@ -6,8 +6,7 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="5dp"
-    android:paddingBottom="5dp"
-    android:background="#d1d1d1">
+    android:paddingBottom="5dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,13 +48,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="음식점"
-        android:textSize="10dp" />
-
-    <TextView
-        android:id="@+id/userid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="사용자"
         android:textSize="10dp" />
 
 </LinearLayout>
