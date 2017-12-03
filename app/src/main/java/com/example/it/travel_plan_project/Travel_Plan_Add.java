@@ -20,6 +20,7 @@ public class Travel_Plan_Add extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plan_add);
 
+
         TabHost tabHost = findViewById(R.id.tabHost1);
         tabHost.setup();
 

@@ -24,10 +24,13 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                />
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
@@ -65,7 +68,7 @@
                             android:ems="10"
                             android:inputType="textPersonName"
                             android:text=""
-                            android:textColor="#000000"/>/>
+                            android:textColor="#000000" />/>
 
                         <Button
                             android:id="@+id/domestic_start_button"
@@ -87,7 +90,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="목적지"
-                            android:textColor="#000000"/>
+                            android:textColor="#000000" />
 
                         <EditText
                             android:id="@+id/domestic_destination_text"
@@ -98,7 +101,7 @@
                             android:ems="10"
                             android:inputType="textPersonName"
                             android:text=""
-                            android:textColor="#000000"/>
+                            android:textColor="#000000" />
 
                         <Button
                             android:id="@+id/domestic_destination_button"
@@ -119,8 +122,8 @@
                             android:layout_width="0dp"
                             android:layout_height="18dp"
                             android:layout_weight="1"
-                            android:textColor="#000000"
-                            android:text="여행날짜" />
+                            android:text="여행날짜"
+                            android:textColor="#000000" />
 
                         <EditText
                             android:id="@+id/domestic_date_startDate"
@@ -129,7 +132,7 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="date"
-                            android:textColor="#000000"/>/>
+                            android:textColor="#000000" />/>
 
                         <TextView
                             android:id="@+id/domestic_text1"
@@ -137,8 +140,8 @@
                             android:layout_height="wrap_content"
 
                             android:text=" ~ "
-                            android:textColor="#000000"
-                            android:textAlignment="center" />
+                            android:textAlignment="center"
+                            android:textColor="#000000" />
 
                         <EditText
                             android:id="@+id/domestic_date_endDate"
@@ -147,7 +150,38 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="date"
-                            android:textColor="#000000"/>/>
+                            android:textColor="#000000" />/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/domestic_Rooms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="숙소"
+                            android:textColor="#000000" />
+
+                        <EditText
+                            android:id="@+id/domestic_Rooms_Text"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text=""
+                            android:textColor="#000000" />/>
+
+                        <Button
+                            android:id="@+id/domestic_Rooms_button"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/seach" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -175,37 +209,6 @@
 
                         <Button
                             android:id="@+id/domestic_Food_button"
-                            android:layout_width="20dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:background="@drawable/seach" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/domestic_Rooms"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:textColor="#000000"
-                            android:text="숙소" />
-
-                        <EditText
-                            android:id="@+id/domestic_Rooms_Text"
-                            android:layout_width="100dp"
-                            android:layout_height="50dp"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text=""
-                            android:textColor="#000000"/>/>
-
-                        <Button
-                            android:id="@+id/domestic_Rooms_button"
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -283,8 +286,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:textColor="#000000"
                             android:text="출발지"
+                            android:textColor="#000000"
                             app:layout_constraintBottom_toBottomOf="@+id/editText7"
                             app:layout_constraintEnd_toStartOf="@+id/editText7"
                             app:layout_constraintStart_toStartOf="parent"
@@ -298,7 +301,7 @@
                             android:ems="10"
                             android:inputType="textPersonName"
                             android:text=""
-                            android:textColor="#000000"/>/>
+                            android:textColor="#000000" />/>
 
                         <Button
                             android:id="@+id/oversea_start_button"
@@ -319,8 +322,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:textColor="#000000"
-                            android:text="목적지" />
+                            android:text="목적지"
+                            android:textColor="#000000" />
 
                         <EditText
                             android:id="@+id/oversea_destination_Text"
@@ -331,7 +334,7 @@
                             android:ems="10"
                             android:inputType="textPersonName"
                             android:text=""
-                            android:textColor="#000000"/>/>
+                            android:textColor="#000000" />/>
 
                         <Button
                             android:id="@+id/oversea_destination_button"
@@ -352,8 +355,8 @@
                             android:layout_width="0dp"
                             android:layout_height="18dp"
                             android:layout_weight="1"
-                            android:textColor="#000000"
-                            android:text="여행날짜" />
+                            android:text="여행날짜"
+                            android:textColor="#000000" />
 
                         <EditText
                             android:id="@+id/oversea_date_startDate"
@@ -369,8 +372,8 @@
                             android:layout_height="wrap_content"
 
                             android:text=" ~ "
-                            android:textColor="#000000"
-                            android:textAlignment="center" />
+                            android:textAlignment="center"
+                            android:textColor="#000000" />
 
                         <EditText
                             android:id="@+id/oversea_date_endDate"
@@ -379,38 +382,9 @@
                             android:layout_weight="1"
                             android:ems="10"
                             android:inputType="date"
-                            android:textColor="#000000"/>/>
+                            android:textColor="#000000" />/>
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/oversea_Food"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="맛집" />
-
-                        <EditText
-                            android:id="@+id/oversea_Food_Text"
-                            android:layout_width="100dp"
-                            android:layout_height="50dp"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:inputType="textPersonName"
-                            android:text=""
-                            android:textColor="#000000"/>/>
-
-                        <Button
-                            android:id="@+id/oversea_Food_button"
-                            android:layout_width="20dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:background="@drawable/seach" />
-                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -436,6 +410,36 @@
 
                         <Button
                             android:id="@+id/oversea_Rooms_button"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/seach" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/oversea_Food"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="맛집" />
+
+                        <EditText
+                            android:id="@+id/oversea_Food_Text"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:text=""
+                            android:textColor="#000000" />/>
+
+                        <Button
+                            android:id="@+id/oversea_Food_button"
                             android:layout_width="20dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
